@@ -8,6 +8,7 @@ Deelnemers:
 - [@nicky-verver](https://github.com/nicky-verver)
 - [@tomvangelder](https://github.com/tomvangelder)
 - [@EVerhaar](https://github.com/EVerhaar)
+- [@smith-project](https://github.com/smith-project)
 
 
 
