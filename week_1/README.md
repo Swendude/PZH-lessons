@@ -21,3 +21,6 @@
 
 - For Boolean logic the truth tables on page 129 of LPTHW are very usefull.
 - The python tutorial covers all the basic datatypes [here](https://docs.python.org/3/tutorial/introduction.html).
+
+## Lesson video
+[Python les PZH 1](https://youtu.be/ZTwfPykni7Y)
