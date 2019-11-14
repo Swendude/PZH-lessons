@@ -24,3 +24,7 @@
 
 ## Lesson video
 [Python les PZH 1](https://youtu.be/ZTwfPykni7Y)
+
+## Deelnemers die er niet waren
+
+- Fiona 
