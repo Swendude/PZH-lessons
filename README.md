@@ -12,7 +12,9 @@ Deelnemers:
 
 
 
-Het huiswerk moet terug te vinden zijn in je 'fork' van [dit project](https://github.com/Swendude/py-classstart).
+~~Het huiswerk moet terug te vinden zijn in je 'fork' van [dit project](https://github.com/Swendude/py-classstart).~~
+
+Het huiswerk kan je sturen naar swenmulderij@gmail.com
 
 Weekmappen bevatten een aantal files:
 - README.md met daarin informatie over de les en externe resources.
