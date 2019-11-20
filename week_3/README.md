@@ -1,4 +1,4 @@
-# Week 2
+# Week 3
 
 ## Conditionals
 - Any questions about Homework, variables
@@ -17,3 +17,6 @@
 
 -  Henk
 - Fiona
+
+# Opname van de les
+https://youtu.be/h4xy_qTIPes
