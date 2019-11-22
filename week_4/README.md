@@ -2,7 +2,6 @@
 
 ## While-loops and lists
 - Any questions about input(), if-else statements or homework?
-- While loops again
 - Lists
   - creating a list
   - list indexing
@@ -13,6 +12,7 @@
   - list of lists
   - type of lists
   - casting list
+  - While loops again
  
 
 ## Resources
@@ -25,4 +25,4 @@
 - Tom
 
 # Opname van de les
-TBA
+https://www.youtube.com/watch?v=MsUGdsZbIwA&feature=youtu.be
