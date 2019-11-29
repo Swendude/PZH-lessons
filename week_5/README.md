@@ -13,7 +13,7 @@
 - Range() list 
 - Break
     - Example: finding stuff in a list
-- Continue
+- /Continue
     - Example: making all values postive
 - Nesting stuff
  
