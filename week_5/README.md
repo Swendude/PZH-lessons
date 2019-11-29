@@ -22,7 +22,7 @@
 - Great overview of for-loops -> https://www.digitalocean.com/community/tutorials/how-to-construct-for-loops-in-python-3
 
 ## Deelnemers die er niet waren
-
+Iedereen was er!
 
 # Opname van de les
-TBA
+https://youtu.be/XycO1PKswgE
