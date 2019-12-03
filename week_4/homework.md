@@ -43,7 +43,7 @@ fruits.sort()
 fruits[1:]
 schaap = fruits.pop()
 fruits.pop(len(fruits) - 1)
-fruits.append(schaap)
+fruits.append(schaap)# fruits.append('schaap')
 if "Eggplant" in fruits:
     fruits.remove("Eggplant")
     fruits.sort()
