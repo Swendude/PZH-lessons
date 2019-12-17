@@ -27,6 +27,6 @@
 - Henk
 
 # Opname van de les
-TBA
+https://youtu.be/VjJVPGG1Xs0
 
 
