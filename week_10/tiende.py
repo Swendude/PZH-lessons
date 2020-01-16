@@ -29,9 +29,10 @@ for rij in range(hoogte):
             for j in [-1, 0, 1]:
                 if not(i == 0 and j == 0): 
                     nieuwe_cel = (doelcel[0] + i, doelcel[1] + j)
+                    print(nieuwe_cel)
                     if wereld[nieuwe_cel[0]][nieuwe_cel[1]] == 1:
                         aantal_buren += 1
-        print((rij,cel), aantal_buren)
+        # print((rij,cel), aantal_buren)
 
 
 
