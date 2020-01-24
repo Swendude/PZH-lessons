@@ -1,0 +1,14 @@
+.uitleglijst {
+    color: cornflowerblue;
+}
+#titel {
+    background-image: linear-gradient(red, yellow);
+}
+
+.test {
+    font-size: x-small;
+}
+
+.wit {
+    color: white;
+}
