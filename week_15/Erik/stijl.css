@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(255, 204, 243);
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+}
+
+.textbody {
+    background-color: white;
+    width: 1000px;
+    border: 30px solid rgba(252, 255, 206);
+    border-radius: 1.5em;
+    margin: auto;
+}
+
+h2, h3, p, form {
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0em 0em 0em 0em;
+    position: relative;
+    animation-name: test;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    0% {color:rgb(255, 204, 243); left:0%;}
+    25% {color: black; left: 25%;}
+    50% {color: rgb(255, 204, 243); left: 50%}
+    75% {color: black; left: 25%;}
+    100% {color:rgb(255, 204, 243); left:0%;}
+}
+
+/* h1:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: rgb(255, 204, 243);
+} */
+
+.navbar {
+    background-color: rgba(252, 255, 206);
+    border-top: 30px solid rgba(252, 255, 206);
+    border-bottom: 30px solid rgba(252, 255, 206);
+    margin: auto;
+}
+
+.navbar a {
+    color: rgb(255, 204, 243);
+    background-color: white;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0em 0em 0em 0em;
+    padding-top: 20px;
+}
+
+a:hover {
+    color: royalblue;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: inline;
+    position: relative;
+    float: right;
+    bottom: 120px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+table {
+    border: 5px solid rgb(255, 204, 243);
+    border-radius: 2em;
+    padding: 25px;
+    width: 400px;
+    margin-left: 40px;
+}
+
+thead {
+    font-weight: bold;
+    padding: 10px;
+}
+
+tbody > tr > td {
+    border-bottom: 1px dotted rgb(255, 204, 243);
+}
+
+tbody > tr > td:nth-of-type(1) {
+    border-right: 1px dotted rgb(255, 204, 243);
+}
+
+td:nth-of-type(2) {
+    text-align: center;
+}
+
+.formbody {
+    max-width: 200px;
+    margin: 0px 0px 10px 20px;
+    padding-top: 10px;
+    border: 2px dotted rgb(255, 204, 243);
+}
+.submitbutton {
+    background-color: rgb(255, 204, 243);
+    padding: 5px 10px 5px 10px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.submitbutton:hover {
+    background-color: royalblue;
+}
+
+.wrapper {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+.ingredienten {
+    float: left;
+    width: 20%;
+    padding-inline-start: 20px;
+}
+
+.bereidingswijze {
+    float: right;
+    width: 70%;
+    padding-inline-end: 60px;
+}
