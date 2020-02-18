@@ -20,14 +20,22 @@ class Rechthoek:
 
 class Cirkel:
   def __init__(self, straal):
+    self.straal = straal
     self.oppervlakte = math.pi * straal ** 2
     self.omtrek = 2 * math.pi * straal
+
+  def printOppervlakte(self):
+    print(math.pi * self.straal ** 2)
 
   def printmijnCirkel(self):
     print("De oppervlakte van de cirkel is " + str(self.oppervlakte))
     print("De omtrek van de cirkel is " + str(self.omtrek))
 
+  def printStraal(self):
+      print(self.straal)
+
 Vierkant1 = Vierkant(10)
+print(Vierkant1.oppervlakte)
 Vierkant1.printmijnVierkant()
 
 Rechthoek1 = Rechthoek(10,5)

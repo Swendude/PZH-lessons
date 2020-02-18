@@ -7,24 +7,24 @@
 import math
 print(math.pi)
 
-# class vierkant:
-#     def __init__(self, lengte, breedte):
-#         self.lengte = lengte
-#         self.breedte = breedte
+class vierkant:
+    def __init__(self, lengte, breedte):
+        self.lengte = lengte
+        self.breedte = breedte
 
-#     def printoppervlakte(self):
-#         oppervlakte = self.lengte * self.breedte
-#         print(oppervlakte)
+    def printoppervlakte(self):
+        oppervlakte = self.lengte * self.breedte
+        print(oppervlakte)
     
-#     def printomtrek(self):
-#         omtrek = self.lengte * 2 + self.breedte * 2
-#         print(omtrek)
+    def printomtrek(self):
+        omtrek = self.lengte * 2 + self.breedte * 2
+        print(omtrek)
 
 ## SWEN: Goed gedaan, je implementatie is correct. Echter heeft een vierkant als het goed is 
 ## maar één waarde voor de init nodig (lengte en breedte zijn hetzelfde)
 
 class vierhoek:
-    def __init__(self, nzijden, nhoeken, lengte, breedte):
+    def __init__(self, lengte, breedte):
         ## SWEN: Waarom geef je hier nzijden en nhoeken als argumenten? Je gebruikt ze vervolgens nergens
         self.nzijden = 4
         self.nhoeken = 4
@@ -45,17 +45,17 @@ class vierhoek:
     def printhoeken(self):
         print(f'ik heb {self.nhoeken} hoeken')
 
-scherm = vierhoek(1, 1, 50, 30)
+scherm = vierhoek(50, 30)
 scherm.printoppervlakte()
 scherm.printomtrek()
 scherm.printzijden()
 scherm.printhoeken()
 
 class cirkel:
-    def __init__(self, straal, diameter):
+    def __init__(self, straal):
         ## SWEN: De straal en diameter hangen samen (diameter = 2 x straal)
         self.straal = straal
-        self.diameter = diameter
+        self.diameter = straal * 2
     
     def printoppervlakte(self):
         oppervlakte = math.pi * self.straal ** 2
@@ -65,7 +65,7 @@ class cirkel:
         omtrek = math.pi * self.diameter
         print(omtrek)
 
-sticker = cirkel(6, 12)
+sticker = cirkel(6)
 sticker.printoppervlakte()
 sticker.printomtrek()
 
