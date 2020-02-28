@@ -29,8 +29,12 @@ class cat:
     def spreek(self):
         print(f'Ik ben {self.leeftijd}')
 
+    def groei(self):
+        self.leeftijd += 1
+
     def __len__(self):
         return 42
+
 len([1,2,3])
 
 loes = cat("Blauw", "Vrouw", 8)
@@ -39,6 +43,7 @@ print(len(loes))
 loes.spreek()
 loes.maakLeeftijd(12)
 loes.spreek()
+loes.groei()
 # print(loes.kleur)
 
 
