@@ -16,5 +16,5 @@ def groet(gebruiker):
 def deelnemerlijst(max_age):
     result = []
     for i in range(5):
-        result.append({'type':'persoon', 'leeftijd':random.randint(0,max_age)})
+        result.append({'type':'persoon', 'leeftijd':random.randint(10,max_age)})
     return jsonify(result)
