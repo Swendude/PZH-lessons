@@ -16,3 +16,11 @@ Bijvoorbeeld:
 
 ## "/attributes"
 - Op deze pagina moet een lijst beschikbaar zijn waarin alle mogelijk waarden voor je attributen staan.
+
+# Resources:
+- Woordenlijsten: https://www.enchantedlearning.com/wordlist/biomes.shtml
+- JS scraper:
+    - `nodes = document.getElementsByClassName("wordlist-item")`
+    - `for (let i = 0; i < nodes.length; i++) {
+console.log(nodes[i].textContent)
+};`

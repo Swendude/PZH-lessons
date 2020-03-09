@@ -10,8 +10,11 @@ def hello_world():
 
 @app.route('/home/<gebruiker>')
 def groet(gebruiker):
+    query = f"SELECT * FROM GEBRUIKERS WHERE NAME = henk"DROP * FROM DB  "
     return render_template('index.html', gebruiker=gebruiker)
-    
+
+/home/henk"DROP * FROM DB  
+
 @app.route('/api/deelnemers/<int:max_age>', methods=['GET'])
 def deelnemerlijst(max_age):
     result = []
